@@ -9,10 +9,16 @@ namespace FromScratch
     {
         public override void Create()
         {
+            if ( base.CreativityLevel >= 70 && base.Energy >= 80) { 
             this.BrainstormSolutions();
             this.PickMostOptimalSolution();
             this.WriteCode();
             this.TestCode();
+        }
+            else
+            {
+                throw new Exception("Cannot create a program.Out of ideas and/or tired.");
+            }
         }
         private void BrainstormSolutions()
         {
