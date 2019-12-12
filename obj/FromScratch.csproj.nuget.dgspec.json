@@ -1,24 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\hslnto\\source\\repos\\StepOne\\FromScratch\\FromScratch.csproj": {}
+    "C:\\Users\\hslnto\\source\\repos\\From-Scratch\\FromScratch.csproj": {}
   },
   "projects": {
-    "C:\\Users\\hslnto\\source\\repos\\StepOne\\FromScratch\\FromScratch.csproj": {
+    "C:\\Users\\hslnto\\source\\repos\\From-Scratch\\FromScratch.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hslnto\\source\\repos\\StepOne\\FromScratch\\FromScratch.csproj",
+        "projectUniqueName": "C:\\Users\\hslnto\\source\\repos\\From-Scratch\\FromScratch.csproj",
         "projectName": "FromScratch",
-        "projectPath": "C:\\Users\\hslnto\\source\\repos\\StepOne\\FromScratch\\FromScratch.csproj",
+        "projectPath": "C:\\Users\\hslnto\\source\\repos\\From-Scratch\\FromScratch.csproj",
         "packagesPath": "C:\\Users\\hslnto\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hslnto\\source\\repos\\StepOne\\FromScratch\\obj\\",
+        "outputPath": "C:\\Users\\hslnto\\source\\repos\\From-Scratch\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
           "C:\\Users\\hslnto\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.0"

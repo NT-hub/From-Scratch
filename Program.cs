@@ -13,6 +13,13 @@ namespace FromScratch
     {
         public static void Main(string[] args)
         {
+            // Console.WriteLine("Hello World");
+            Console.WriteLine("\nWhat is your name? ");
+            var name = Console.ReadLine();
+            var date = DateTime.Now;
+            Console.WriteLine($"\n Hello, {name}, on {date:t}!");
+            Console.WriteLine("\nPress any key to exit...");
+            Console.ReadKey(true);
             CreateHostBuilder(args).Build().Run();
         }
 
