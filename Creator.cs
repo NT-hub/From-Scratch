@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace FromScratch
 {
-    public class Creator
+    public  abstract class Creator
     {
         private int _creativitylevel = 100;
         private int _energy = 100;
@@ -45,6 +45,6 @@ namespace FromScratch
                 }
             }
         }
-       // public abstract void Create();
+        public abstract void Create();
     }
 }
