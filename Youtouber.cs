@@ -7,6 +7,7 @@ namespace FromScratch
 {
     public class Youtuber : Creator
     {
+        
         public override void Create()
         {
             if (base.CreativityLevel >= 50 & base.Energy >= 50) {
